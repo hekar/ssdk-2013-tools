@@ -1,0 +1,11 @@
+const path = require('path');
+const yargs = require('yargs')
+
+const args = yargs
+    .commandDir(path.join(__dirname, 'lib', 'cmd'), {
+        extensions: ['-cmd.js'],
+        recurse: true,
+    })
+    .demandCommand()
+    .argv;
+

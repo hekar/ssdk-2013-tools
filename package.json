@@ -1,0 +1,27 @@
+{
+  "name": "ssdk-2013-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hekar/ssdk-2013-tools.git"
+  },
+  "author": "Hekar Khani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hekar/ssdk-2013-tools/issues"
+  },
+  "homepage": "https://github.com/hekar/ssdk-2013-tools#readme",
+  "dependencies": {
+    "fgd": "^1.0.2",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "chai": "^4.2.0"
+  }
+}
